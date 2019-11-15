@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonButton" id="8">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">383 301 70 20 </string>
+      <string name="bounds">301 383 321 453 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="91">
+      <int name="controlID">4</int>
+      <string name="title">If you prefer not to pay for a GUI version, you can use one of the free, open-source, command-line versions available at http://paup.phylosolutions.com.</string>
+      <string name="viewFrame">20 57 500 40 </string>
+      <string name="bounds">57 20 97 520 </string>
+    </object>
+    <object class="IBCarbonGroupBox" id="85">
+      <int name="controlID">7</int>
+      <int name="fontStyle">0</int>
+      <boolean name="autoToggle">FALSE</boolean>
+      <boolean name="primary">FALSE</boolean>
+      <int name="selectedItem">0</int>
+      <string name="viewFrame">49 115 455 129 </string>
+      <array count="2" name="subviews">
+        <object class="IBCarbonStaticText" id="82">
+          <int name="controlID">5</int>
+          <string name="title">If you have not already obtained a trial or full license, you can visit the PhyloSolutions store to obtain one.  Then paste your license ID and activation password into the fields below to complete the activation.</string>
+          <string name="viewFrame">26 16 402 69 </string>
+          <string name="bounds">131 75 200 477 </string>
+        </object>
+        <object class="IBCarbonButton" id="83">
+          <int name="controlID">6</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Visit PhyloSolutions store</string>
+          <string name="viewFrame">135 93 184 20 </string>
+          <string name="bounds">208 184 228 368 </string>
+        </object>
+      </array>
+      <string name="bounds">115 49 244 504 </string>
+    </object>
+    <reference idRef="83"/>
+    <object class="IBCarbonEditText" id="89">
+      <int name="controlID">11</int>
+      <boolean name="useInlineInput">TRUE</boolean>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="title">842276BN</string>
+      <string name="foreColor">0 0 0 </string>
+      <string name="viewFrame">107 302 91 16 </string>
+      <string name="bounds">302 107 318 198 </string>
+    </object>
+    <object class="IBCarbonWindow" id="16">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Activate License</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 555 341 </string>
+        <array count="10" name="subviews">
+          <reference idRef="8"/>
+          <object class="IBCarbonButton" id="12">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Activate</string>
+            <string name="viewFrame">465 301 70 20 </string>
+            <string name="bounds">301 465 321 535 </string>
+          </object>
+          <object class="IBCarbonButton" id="93">
+            <int name="controlID">12</int>
+            <int name="fontStyle">-2</int>
+            <int name="controlSize">1</int>
+            <int name="iconPosition">7</int>
+            <string name="title">Deauthorize this computer</string>
+            <string name="viewFrame">209 270 167 20 </string>
+            <string name="bounds">270 209 290 376 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="81">
+            <int name="controlID">3</int>
+            <string name="title">GUI versions of PAUP* require a license on each installed machine.  Supply valid license activation data to (re)license this copy.</string>
+            <string name="viewFrame">20 14 515 41 </string>
+            <string name="bounds">14 20 55 535 </string>
+          </object>
+          <reference idRef="91"/>
+          <reference idRef="85"/>
+          <object class="IBCarbonStaticText" id="86">
+            <int name="controlID">8</int>
+            <string name="title">License ID:</string>
+            <string name="viewFrame">32 272 69 16 </string>
+            <string name="bounds">272 32 288 101 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="87">
+            <int name="controlID">10</int>
+            <string name="title">Password:</string>
+            <string name="viewFrame">32 302 64 16 </string>
+            <string name="bounds">302 32 318 96 </string>
+          </object>
+          <object class="IBCarbonEditText" id="88">
+            <int name="controlID">9</int>
+            <boolean name="useInlineInput">TRUE</boolean>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="title">63007441</string>
+            <string name="foreColor">0 0 0 </string>
+            <string name="viewFrame">107 272 91 16 </string>
+            <string name="bounds">272 107 288 198 </string>
+          </object>
+          <reference idRef="89"/>
+        </array>
+        <string name="bounds">0 0 341 555 </string>
+      </object>
+      <string name="windowRect">494 105 835 660 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="86"/>
+    <reference idRef="12"/>
+    <reference idRef="2"/>
+    <reference idRef="88"/>
+    <reference idRef="87"/>
+    <reference idRef="93"/>
+    <reference idRef="82"/>
+    <reference idRef="81"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="85"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="16"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="85"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Licensing2</string>
+    <reference idRef="16"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">94</unsigned_int>
+</object>
