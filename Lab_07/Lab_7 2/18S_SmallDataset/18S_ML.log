@@ -1,0 +1,208 @@
+
+P A U P *
+Version 4.0a (build 166) for Macintosh (X86) (built on Sep  1 2019 at 22:34:58)
+Friday, November 8, 2019 at 1:45:55 PM Chamorro Standard Time
+
+
+Heuristic search settings:
+  Optimality criterion = likelihood
+    1523 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                      Substitution types = 6 (restricted to 5 distinct rates)
+                       Exchangeabilities = AC=1 AG=4531.91 AT=1.27384 CG=1.77066 CT=0.604135 GT=1
+                       State frequencies = equal
+          Proportion of invariable sites = none
+                 Rates at variable sites = gamma, shape=1.4547 (4 categories [mean])
+                    Model correspondence = SYM+G
+
+      Number of distinct data patterns under this model = 119
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 2 physical (4 logical) processors
+
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 5
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100 (will be auto-increased by 100)
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Note: Approximation limit dynamically readjusted to 30.8185%
+
+Heuristic search completed
+  Total number of rearrangements tried = 14
+  Score of best tree(s) found = 5972.045
+  Number of trees retained = 1
+  Time used = 0.07 sec (CPU time = 0.06 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1        5972.045            1       5
+
+1 tree saved to file "~/Dropbox/UOG_MarineLab/Teaching/2019_BI694_Bioinformatics/Labs/REPO/2019_BI694-BioInformatics/Lab_7/Lab_7 2/18S_SmallDataset/datasetname.cb.ml.tree.nex"
+
+Processing of input file "18S_MaxLikelihood.nxs" completed.
+
+paup> showtrees;
+
+Tree 1 (rooted using user-specified outgroup)
+
+                                                                                                                             /----------------------------------------- Rat
+                                                                                   /-----------------------------------------+
+                                                                                   |                                         \----------------------------------------- Human
+                                          /----------------------------------------+
+/-----------------------------------------+                                        \----------------------------------------------------------------------------------- Chicken
+|                                         |
+|                                         \---------------------------------------------------------------------------------------------------------------------------- Seastar
+|
+\---------------------------------------------------------------------------------------------------------------------------------------------------------------------- Fly
+
+Active dataset has been discarded from memory.
+
+Processing of file "18S_MaxParsimony.nxs" begins...
+
+Data read in DNA format
+
+Data matrix has 5 taxa, 1523 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Optimality criterion set to parsimony.
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 4
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 1523 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        1040 characters are constant (proportion = 0.682863)
+        368 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 115
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 1000
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100 (will be auto-increased by 100)
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 12
+  Score of best tree(s) found = 591
+  Number of trees retained = 1
+  Time used = 0.01 sec (CPU time = 0.00 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1             591            1    1000
+
+1 tree saved to file "~/Dropbox/UOG_MarineLab/Teaching/2019_BI694_Bioinformatics/Labs/REPO/2019_BI694-BioInformatics/Lab_7/Lab_7 2/18S_SmallDataset/18S.MP.tree.nex"
+
+Processing of input file "18S_MaxParsimony.nxs" completed.
+
+Processing of file "18S_MaxParsimony.nxs" begins...
+
+Data read in DNA format
+
+Data matrix has 5 taxa, 1523 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 4
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 1523 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        1040 characters are constant (proportion = 0.682863)
+        368 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 115
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 1000
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100 (will be auto-increased by 100)
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 12
+  Score of best tree(s) found = 591
+  Number of trees retained = 1
+  Time used = 0.00 sec (CPU time = 0.01 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1             591            1    1000
+
+1 tree saved to file "~/Dropbox/UOG_MarineLab/Teaching/2019_BI694_Bioinformatics/Labs/REPO/2019_BI694-BioInformatics/Lab_7/Lab_7 2/18S_SmallDataset/18S.MP.tree.nex"
+
+Processing of input file "18S_MaxParsimony.nxs" completed.

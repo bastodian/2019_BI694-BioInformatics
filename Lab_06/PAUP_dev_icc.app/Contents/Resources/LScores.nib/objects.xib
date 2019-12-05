@@ -1,0 +1,236 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="21" name="allObjects">
+    <object class="IBCarbonCheckBox" id="39">
+      <int name="controlID">11</int>
+      <int name="fontStyle">-4</int>
+      <string name="title">AICc</string>
+      <string name="viewFrame">262 151 54 18 </string>
+      <string name="bounds">151 262 169 316 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="40">
+      <int name="controlID">12</int>
+      <int name="fontStyle">-4</int>
+      <string name="title">BIC</string>
+      <string name="viewFrame">320 151 52 18 </string>
+      <string name="bounds">151 320 169 372 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="31">
+      <int name="controlID">8</int>
+      <string name="title">Calculate likelihood of unconstrained model</string>
+      <string name="viewFrame">281 85 178 47 </string>
+      <string name="bounds">85 281 132 459 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="8">
+      <int name="controlID">3</int>
+      <string name="title">Trees:</string>
+      <string name="viewFrame">41 9 49 16 </string>
+      <string name="bounds">9 41 25 90 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="23">
+      <int name="controlID">14</int>
+      <int name="fontStyle">-4</int>
+      <string name="title">Show relative contribution for each rate category (if applicable)</string>
+      <string name="viewFrame">58 198 401 18 </string>
+      <string name="bounds">198 58 216 459 </string>
+    </object>
+    <object class="IBCarbonButton" id="19">
+      <int name="controlID">18</int>
+      <string name="title">Topology tests (KH, SH, AU)…</string>
+      <string name="viewFrame">36 305 229 20 </string>
+      <string name="bounds">305 36 325 265 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="20">
+      <int name="controlID">13</int>
+      <int name="fontStyle">-4</int>
+      <string name="title">Show likelihoods for each site</string>
+      <string name="viewFrame">34 178 233 18 </string>
+      <string name="bounds">178 34 196 267 </string>
+    </object>
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">347 331 70 20 </string>
+      <string name="bounds">331 347 351 417 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="22">
+      <int name="controlID">17</int>
+      <int name="fontStyle">-4</int>
+      <string name="title">Suppress main display output</string>
+      <string name="viewFrame">58 267 219 18 </string>
+      <string name="bounds">267 58 285 277 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="6">
+      <int name="controlID">19</int>
+      <string name="viewFrame">483 5 25 25 </string>
+      <string name="bounds">5 483 30 508 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonButton" id="13">
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">429 331 70 20 </string>
+      <string name="bounds">331 429 351 499 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 519 371 </string>
+      <array count="19" name="subviews">
+        <reference idRef="13"/>
+        <reference idRef="5"/>
+        <reference idRef="8"/>
+        <object class="IBCarbonStaticText" id="41">
+          <int name="controlID">9</int>
+          <string name="title">Show information criteria:</string>
+          <string name="viewFrame">36 152 168 16 </string>
+          <string name="bounds">152 36 168 204 </string>
+        </object>
+        <object class="IBCarbonButton" id="10">
+          <int name="controlID">6</int>
+          <string name="title">Likelihood Settings…</string>
+          <string name="viewFrame">295 35 160 20 </string>
+          <string name="bounds">35 295 55 455 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="15">
+          <int name="controlID">7</int>
+          <string name="title">Sort trees by likelihood score</string>
+          <string name="viewFrame">281 66 206 18 </string>
+          <string name="bounds">66 281 84 487 </string>
+        </object>
+        <reference idRef="31"/>
+        <object class="IBCarbonDBListView" id="11">
+          <int name="controlID">5</int>
+          <int name="fontStyle">-2</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="columnWidth">100</int>
+          <array count="2" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">ID  </ostype>
+              <int name="propertyFlags">262144</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">38</int>
+              <int name="minWidth">38</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">#</string>
+            </object>
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">NAME</ostype>
+              <int name="propertyFlags">262144</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">121</int>
+              <int name="minWidth">121</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Name</string>
+            </object>
+          </array>
+          <int name="hiliteStyle">1</int>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <string name="viewFrame">98 6 162 130 </string>
+          <string name="bounds">6 98 136 260 </string>
+        </object>
+        <object class="IBCarbonButton" id="14">
+          <int name="controlID">4</int>
+          <string name="title">All</string>
+          <string name="viewFrame">36 47 45 20 </string>
+          <string name="bounds">47 36 67 81 </string>
+        </object>
+        <reference idRef="6"/>
+        <reference idRef="20"/>
+        <object class="IBCarbonCheckBox" id="38">
+          <int name="controlID">10</int>
+          <int name="fontStyle">-4</int>
+          <string name="title">AIC</string>
+          <string name="viewFrame">210 151 46 18 </string>
+          <string name="bounds">151 210 169 256 </string>
+        </object>
+        <reference idRef="39"/>
+        <reference idRef="40"/>
+        <reference idRef="23"/>
+        <object class="IBCarbonCheckBox" id="21">
+          <int name="controlID">15</int>
+          <int name="fontStyle">-4</int>
+          <string name="title">Store site-likelihoods as character-weights</string>
+          <string name="viewFrame">34 221 289 18 </string>
+          <string name="bounds">221 34 239 323 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="18">
+          <int name="controlID">16</int>
+          <int name="fontStyle">-4</int>
+          <string name="title">Save likelihood scores (and parameter estimates) to text file</string>
+          <string name="viewFrame">34 247 383 18 </string>
+          <string name="bounds">247 34 265 417 </string>
+        </object>
+        <reference idRef="22"/>
+        <reference idRef="19"/>
+      </array>
+      <string name="bounds">0 0 371 519 </string>
+    </object>
+    <reference idRef="38"/>
+    <reference idRef="41"/>
+    <reference idRef="14"/>
+    <reference idRef="21"/>
+    <reference idRef="18"/>
+    <reference idRef="11"/>
+    <object class="IBCarbonWindow" id="24">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Likelihood Scores</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">385 760 756 1279 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="10"/>
+    <reference idRef="15"/>
+  </array>
+  <array count="21" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="24"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LScores</string>
+    <reference idRef="24"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">42</unsigned_int>
+</object>
